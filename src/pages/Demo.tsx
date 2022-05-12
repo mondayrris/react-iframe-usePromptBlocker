@@ -1,6 +1,6 @@
 import Iframe from "react-iframe";
 import React from "react";
-import {usePrompt} from "../components/usePromptBlocker";
+import {usePrompt} from "../hooks/usePromptBlocker";
 
 const Demo = () => {
     usePrompt(
