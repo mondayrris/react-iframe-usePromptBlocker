@@ -5,7 +5,7 @@ import {ContextType, useCallback, useContext, useEffect} from 'react';
 import {Navigator as BaseNavigator, UNSAFE_NavigationContext as NavigationContext} from 'react-router-dom';
 
 interface Navigator extends BaseNavigator {
-    block: History['block'];
+    block: History['block']; 
 }
 
 type NavigationContextWithBlock = ContextType<typeof NavigationContext> & { navigator: Navigator };
